@@ -15,7 +15,7 @@ git tag vX.Y.Z; git push --tags
 ## What ran (2026-10-16)
 
 - **`v0.1.0`:** all three jobs succeeded. The release has `hello-v0.1.0.tar.gz` and `SHA256SUMS`, the checksum check passed, and `gh attestation verify` passed. Its changelog was the first commit only (no previous tag).
-- **`v0.1.1`:** see the release page for its changelog; it covers only the commits since `v0.1.0`.
+- **`v0.1.1`:** also succeeded. Its changelog contained only the one commit made since `v0.1.0` (the README), which shows the previous-tag range works.
 
 ## Decisions
 
